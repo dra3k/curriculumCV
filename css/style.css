@@ -43,7 +43,6 @@ body {
 .title-header{
     font-size:1.6rem;
     color: #fff;
-    margin: 0;
     }
 .title{
 font-size:2rem;
@@ -93,7 +92,7 @@ margin: 0;
     background: #2f3542;
     color: #fff;
 }
-.services{
+.sect{
     padding: 2rem 0;
 }
 footer{
@@ -131,8 +130,13 @@ footer p{
     }
 }
 @media(max-height: 500px){
+    .header-content .logo{
+        height: 100px;
+        width: 100px;
+    }
     .header-content .text{
         display: none;
+        top:10;
     }
     .header-content{
         top:0;
